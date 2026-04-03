@@ -1,9 +1,7 @@
 export default function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white flex items-center justify-center px-6">
-      
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
-        
         {/* LEFT CONTENT */}
         <div>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
@@ -15,8 +13,8 @@ export default function Hero() {
           </h2>
 
           <p className="mt-6 text-gray-400 max-w-lg">
-            I build modern, responsive web applications using React, Node.js, 
-            and cutting-edge technologies. Passionate about creating beautiful 
+            I build modern, responsive web applications using React, Node.js,
+            and cutting-edge technologies. Passionate about creating beautiful
             and performant user experiences.
           </p>
 
@@ -30,7 +28,10 @@ export default function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/images/Resume.pdf" // path to your PDF
+              download="My_Resume.pdf" // optional: file name for download
+              target="_blank" // opens PDF in new tab
+              rel="noopener noreferrer"
               className="border border-gray-600 hover:border-white px-6 py-3 rounded-lg font-medium transition"
             >
               Download CV
@@ -41,7 +42,6 @@ export default function Hero() {
         {/* RIGHT CONTENT */}
         <div className="flex justify-center">
           <div className="relative">
-            
             {/* Glow Effect */}
             <div className="absolute inset-0 bg-blue-500 blur-3xl opacity-20 rounded-full"></div>
 
@@ -53,7 +53,6 @@ export default function Hero() {
             />
           </div>
         </div>
-
       </div>
     </section>
   );

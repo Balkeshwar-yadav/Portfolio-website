@@ -13,8 +13,8 @@ export default function Contact() {
     e.preventDefault();
    const res =  await axios.post("https://portfolio-backend-1-7prp.onrender.com/api/contact", form);
     let name = res.data.name;
-
-    setForm({name:"", email:"", message:""});
+        console.log(res.data);
+      setForm({name:"", email:"", message:""});
     alert(`Hello ${name} your message send successfully!`);
   };
 
