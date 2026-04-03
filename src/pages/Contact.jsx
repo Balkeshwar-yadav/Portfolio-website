@@ -11,7 +11,7 @@ export default function Contact() {
 
   const submit = async (e) => {
     e.preventDefault();
-   const res =  await axios.post("http://localhost:5000/api/contact", form);
+   const res =  await axios.post("https://portfolio-backend-1-7prp.onrender.com/api/contact", form);
     let name = res.data.name;
 
     setForm({name:"", email:"", message:""});
