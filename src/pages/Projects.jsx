@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "Food Ordering Application",
-    description: "Real-time file uploader using multer and cloudinary",
+    description: "Food Ordering Application built using Mern Stack Technology",
     tech: ["ReactJs","Tailwind CSS","Node.js", "Express.js", "MongoDB"],
     github: " https://github.com/Balkeshwar-yadav/Food-Ordering-App.git",
     live: " https://food-ordering-app-iota-lovat.vercel.app/",
@@ -18,9 +18,9 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio built with modern UI",
-    tech: ["React", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/Balkeshwar-yadav/Portfolio-website.git",
+    live: "https://portfolio-website-eight-gamma-82.vercel.app/",
     image: "/images/portfolio.png",
   },
   {
