@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: "Recipe App",
-    description: "Fullstack app with cart & Authentication integration",
-    tech: ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
-    github: "https://github.com/Balkeshwar-yadav/Recipe-Application.git",
-    live: "https://recepy-frontend.vercel.app/",
-    image: "/images/recipe.png",
+    title: "Event Management Platform",
+    description: "A modern, responsive web application designed to simplify event planning and management",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/Balkeshwar-yadav/Event-Management-Website.git",
+    live: "https://event-management-website-iif3.vercel.app/",
+    image: "/images/event1.png",
   },
   {
     title: "Food Ordering Application",
@@ -22,6 +22,14 @@ const projects = [
     github: "https://github.com/Balkeshwar-yadav/Portfolio-website.git",
     live: "https://portfolio-website-eight-gamma-82.vercel.app/",
     image: "/images/portfolio.png",
+  },
+  {
+    title: "Recipe App",
+    description: "Fullstack app with cart & Authentication integration",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
+    github: "https://github.com/Balkeshwar-yadav/Recipe-Application.git",
+    live: "https://recepy-frontend.vercel.app/",
+    image: "/images/recipe.png",
   },
   {
     title: "File Uploader Application",
